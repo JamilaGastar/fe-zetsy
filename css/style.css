@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family:'Times New Roman', Times, serif;
 }
 
 .wrapper {
@@ -15,6 +15,23 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+h1 {
+	font-size: 400%;
+}
+
+#Necklace {
+	border-style: solid;
+}
+
+h2 {
+	font-size: 200%;
+	color: #61775a;
+}
+
+p {
+	color: #61775a;
 }
 
 /* Write all remaining styles here */
