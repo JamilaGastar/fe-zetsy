@@ -7,7 +7,9 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family:'Times New Roman', Times, serif;
+	font-family:'Times New Roman', serif;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .wrapper {
@@ -17,21 +19,69 @@ body {
 	padding: 0 45px 20px;
 }
 
+/* Write all remaining styles here */
+
 h1 {
-	font-size: 400%;
+	font-size: 500%;
+	color: hsl(154, 8%, 62%);
+	margin: 0;
+	font-family: 'Baskerville', serif;
 }
 
-#Necklace {
+hr {
+	margin: 10px 0 5px;
+}
+
+h1:hover {
+	color: hsl(159, 10%, 43%);
+}
+
+hr {
+	color: #a0a0a0
+}
+
+#necklace {
 	border-style: solid;
+	border-width: 5px;
+	border-color: hsl(154, 8%, 62%);
 }
 
 h2 {
 	font-size: 200%;
-	color: #61775a;
+	color: #768173;
 }
 
 p {
-	color: #61775a;
+	color: #636462;
 }
 
-/* Write all remaining styles here */
+a:link {
+	text-decoration: none;
+	color: rgb(34, 155, 202);
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(34, 155, 202);
+}
+
+a:visited {
+	color: rgb(34, 155, 202);
+}
+
+.media img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #d3d1d1;
+	padding: 1px;
+}
+
+.media img:hover {
+	border-color: hsl(159, 10%, 43%);
+	padding: 1px;
+}
+
+footer {
+	text-align: right;
+	font-size: smaller;
+}
